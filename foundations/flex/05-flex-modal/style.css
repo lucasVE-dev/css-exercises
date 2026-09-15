@@ -4,6 +4,7 @@ html, body {
   height: 100%;
 }
 
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,6 +21,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+
 }
 
 .icon {
@@ -33,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -66,4 +73,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.text {
+  margin: 8px 0;
+}
+
+.container {
+  margin: 2px;
+
+}
+
+.header-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  margin: 8px 0;
 }
